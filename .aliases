@@ -19,8 +19,8 @@ alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.c
 
 # handy things
 alias bunyip='node ~/code/bunyip/cli.js'
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
-alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
+# alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
+# alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
 
 
 # Detect which `ls` flavor is in use
@@ -118,3 +118,28 @@ done
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+#-------------------------
+# aliases by c
+# ------------------------
+alias ea='cd ~/Dropbox/dotfiles/ && nano .aliases'
+alias ua="cd ~/Dropbox/dotfiles && g add . && g commit && g push && source sync.sh"
+
+alias clr="clear"
+
+alias cdu="cd ~/Box\ Documents/Urbity"
+alias cdp="cd ~/Dropbox/web-projects"
+alias d="cd ~/Dropbox"
+alias cdafsg="cd ~/Box\ Documents/Urbity/_Urbity/AFSG\ Consulting/_updated/_edited2"
+alias cdcollab="cd ~ && cd \"Box Documents/Building Five/Collaborent Health/collaborant health data/\""
+
+alias ps="python -m SimpleHTTPServer"
+
+alias frep='grep --color=auto -RnisI'
+
+alias gstat='git status'
+alias giff='git diff --color=auto'
+
+alias rke="ssh ubuntu@rkelawgroup.com"
+alias fflg="ssh ubuntu@rkelawgroup.com"
+alias urbity="ssh ubuntu@urbity.com"

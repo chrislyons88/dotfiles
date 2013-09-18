@@ -1,5 +1,7 @@
 # up to you (me) if you want to run this as a file or copy paste at your leisure
 
+# install node
+
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
@@ -33,13 +35,13 @@ chmod +x ~/code/z/z.sh
 
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
-cd ~/code
-git clone git://github.com/dronir/SpotifyControl.git
+# cd ~/code
+# git clone git://github.com/dronir/SpotifyControl.git
 
 # https://github.com/jeroenbegyn/VLCControl
 # VLC Controll Script
-cd ~/code
-git clone git://github.com/jeroenbegyn/VLCControl.git
+# cd ~/code
+# git clone git://github.com/jeroenbegyn/VLCControl.git
 
 
 # my magic photobooth symlink -> dropbox. I love it.
