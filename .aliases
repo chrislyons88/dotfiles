@@ -8,7 +8,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # programs
-alias slt='open -a "Sublime Text 2"'
+alias slt='open -a "Sublime Text"'
 # also/or do this:
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
@@ -122,8 +122,8 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 #-------------------------
 # aliases by c
 # ------------------------
-alias ea='cd ~/Dropbox/dotfiles/ && nano .aliases'
-alias ua="cd ~/Dropbox/dotfiles && g add . && g commit &&  "
+alias ea='cd ~/Dropbox/dotfiles/ && slt .'
+alias ua="cd ~/Dropbox/dotfiles && g add . && g commit && g push && source sync.sh"
 
 alias clr="clear"
 
