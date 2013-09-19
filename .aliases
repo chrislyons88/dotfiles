@@ -123,7 +123,7 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # aliases by c
 # ------------------------
 alias ea='cd ~/Dropbox/dotfiles/ && slt .'
-alias ua="cd ~/Dropbox/dotfiles && g add . && g commit && g push && source sync.sh"
+alias ua="cd ~/Dropbox/dotfiles && source sync.sh && g add . && g commit && g push"
 
 alias clr="clear"
 
