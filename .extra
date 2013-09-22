@@ -8,11 +8,11 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 # PATH like a bawss from paulirish
-#      PATH=/opt/local/bin
-#PATH=$PATH:/opt/local/sbin
+PATH=$PATH:/opt/local/bin
+PATH=$PATH:/opt/local/sbin
 #PATH=$PATH:/bin
 #PATH=$PATH:~/.rvm/bin
-#PATH=$PATH:~/code/git-friendly
+PATH=$PATH:~/code/git-friendly
 #PATH=$PATH:~/code/git-friendly
 # ...
 
