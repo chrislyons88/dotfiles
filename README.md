@@ -77,9 +77,9 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 
 ```bash
 git clone https://github.com/chrislyons88/dotfiles.git && cd dotfiles && ./sync.sh
-sudo source .osx
+./.osx
 sudo source install-deps.sh
-sudo source .brew
+./.brew
 sudo touch .extra && v .extra
 # add in git creds in .extra
 ```
