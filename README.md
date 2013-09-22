@@ -1,8 +1,6 @@
-# Paul's dotfiles
+# Chris's dotfiles
 
-[mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
-
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
+Shamelessly jacked from @paulirish
 
 ## install the necessary apps
 
@@ -12,18 +10,17 @@ My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, et
 
 Toss it into a file called `.extra` which you do not commit to this repo and just keep in your `~/`
 
-I do something nice with my `PATH` there:
+This is where i keep my git username config
 
 ```shell
-# PATH like a bawss
-      PATH=/opt/local/bin
-PATH=$PATH:/opt/local/sbin
-PATH=$PATH:/bin
-PATH=$PATH:~/.rvm/bin
-PATH=$PATH:~/code/git-friendly
-# ...
-
-export PATH
+# Git credentials
+# Not in the repository, to prevent people from accidentally committing under my name
+GIT_AUTHOR_NAME="Chris Lyons"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="chrislyons88@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
 ## Syntax highlighting
@@ -46,9 +43,6 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
 
 
-
-
-
 ## overview of files
 
 ####  Automatic config
@@ -68,6 +62,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 * `install-deps.sh` - random apps i need installed
 * `.osx` - run on a fresh osx machine
 * `.brew` - homebrew initialization
+* `sync.sh` - syncs dotfiles to ~
 
 #### git, brah
 * `.git`
@@ -81,7 +76,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/chrislyons88/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
