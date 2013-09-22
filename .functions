@@ -156,3 +156,7 @@ gifify() {
   fi
 }
 
+# create a file and open in sublime
+ts() {
+	touch "$1" && s "$1"
+}
