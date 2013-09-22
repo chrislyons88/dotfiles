@@ -77,6 +77,20 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 
 ```bash
 git clone https://github.com/chrislyons88/dotfiles.git && cd dotfiles && ./sync.sh
+sudo source .osx
+sudo source install-deps.sh
+sudo source .brew
+sudo touch .extra && v .extra
+# add in git creds in .extra
 ```
 
 To update later on, just run the sync again.
+
+I personally have aliases set up for updating my dotfiles
+```bash
+# opens all dotfiles directory in Sublime
+ea
+
+# commits and pushes to github, then runs sync.sh
+ua
+```
