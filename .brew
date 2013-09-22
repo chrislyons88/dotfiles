@@ -45,17 +45,17 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-installcask dropbox
-installcask evernote
-installcask cyberduck
 installcask google-chrome
-installcask google-chrome-canary
+installcask dropbox
 installcask iterm2
 installcask sublime-text
-installcask the-unarchiver
-installcask tor-browser
-installcask transmission
-installcask vlc
+installcask cyberduck
+installcask evernote
+# installcask google-chrome-canary
+# installcask the-unarchiver
+# installcask tor-browser
+# installcask transmission
+# installcask vlc
 
 
 # Remove outdated versions from the cellar

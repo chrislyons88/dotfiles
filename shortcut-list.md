@@ -1,4 +1,6 @@
-## terminal
+## terminal aliases and functions
+
+# Set up ST3 backup from existing installation
 ```bash
 # Make your backup Folder.
 mkdir ~/Dropbox/ST3/
@@ -19,8 +21,8 @@ rm -rf Packages/ ~/Dropbox/ST3/
 rm -rf Installed\ Packages/ ~/Dropbox/ST3/
 
 # Make symlinks
-ln -s ~/Dropbox/ST3/Packages/ Packages/
-ln -s ~/Dropbox/ST3/Installed\ Packages Installed\ Packages/
+ln -s ~/Dropbox/ST3/Installed\ Packages Installed\ Packages
+ln -s ~/Dropbox/ST3/Packages/ Packages
 
 ```
 
@@ -29,3 +31,5 @@ ln -s ~/Dropbox/ST3/Installed\ Packages Installed\ Packages/
 
 ## Sublime
 
+# export markdown to html, requires markdown preview
+cmd+b
