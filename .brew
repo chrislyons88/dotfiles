@@ -21,12 +21,36 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
+brew install php55
 
 # Install everything else
 brew install ack
 brew install git
+brew install node
+
 brew install rename
+brew install webkit2png
 brew install tree
+brew install lynx
+
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
+function installcask() {
+	brew cask install "${@}" 2> /dev/null
+}
+
+installcask dropbox
+installcask google-chrome
+installcask google-chrome-canary
+installcask iterm2
+installcask sublime-text
+installcask the-unarchiver
+installcask tor-browser
+installcask transmission
+installcask vlc
+
 
 # Remove outdated versions from the cellar
 brew cleanup

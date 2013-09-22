@@ -82,6 +82,7 @@ sudo source install-deps.sh
 ./.brew
 sudo touch .extra && v .extra
 # add in git creds in .extra
+# config path?
 ```
 
 To update later on, just run the sync again.
