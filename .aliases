@@ -122,7 +122,7 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 #-------------------------
 # aliases by c
 # ------------------------
-alias ea='cd ~/Dropbox/dotfiles/ && slt .'
+alias ea='cd ~/Dropbox/dotfiles/ && s .'
 alias ua="cd ~/Dropbox/dotfiles && source sync.sh && g add . && g commit && g push"
 
 alias clr="clear"
@@ -134,7 +134,7 @@ alias cdd="cd ~/Dropbox/dotfiles/"
 alias cdafsg="cd ~/Box\ Documents/Urbity/_Urbity/AFSG\ Consulting/_updated/_edited2"
 alias cdcollab="cd ~ && cd \"Box Documents/Building Five/Collaborent Health/dev/wp-content/themes/collabhealth-theme/\""
 
-alias ps="python -m SimpleHTTPServer"
+# alias ps="python -m SimpleHTTPServer"
 
 alias s='open -a "Sublime Text"'
 
@@ -142,7 +142,7 @@ alias frep='grep --color=auto -RnisI'
 
 alias tree='tree -C'
 
-alias gstat='git status'
+alias gat='git status'
 alias giff='git diff --color=auto'
 
 alias rke="ssh ubuntu@rkelawgroup.com"
