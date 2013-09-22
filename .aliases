@@ -140,7 +140,7 @@ alias s='open -a "Sublime Text"'
 
 alias frep='grep --color=auto -RnisI'
 
-alias treec='tree -C'
+alias tree='tree -C'
 
 alias gstat='git status'
 alias giff='git diff --color=auto'
