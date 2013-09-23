@@ -31,5 +31,5 @@ ln -s ~/Dropbox/ST3/Packages/ Packages
 
 ## Sublime
 
-# export markdown to html, requires markdown preview
+# export markdown to html, requires markdown preview st3 plugin
 cmd+b
