@@ -20,4 +20,4 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home`
 
 # set up EC2 eviron
-export EC2_HOME="~/"
+export EC2_HOME="~"
