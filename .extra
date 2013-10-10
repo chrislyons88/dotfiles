@@ -14,6 +14,6 @@ PATH=$PATH:/opt/local/sbin
 #PATH=$PATH:~/.rvm/bin
 PATH=$PATH:~/code/git-friendly
 #PATH=$PATH:~/code/git-friendly
-# ...
+PATH=$PATH:$EC2_HOME/bin 
 
 export PATH
