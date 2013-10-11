@@ -118,6 +118,10 @@ Open web page in lynx
 lynx <url>
 
 
+octal file permissions
+oct <file>
+
+
 
 
 ## iTerm

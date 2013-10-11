@@ -140,6 +140,8 @@ alias s='open -a "Sublime Text"'
 
 alias frep='grep --color=auto -RnisI'
 
+alias oct='stat -c %a %n'
+
 alias tree='tree -C'
 
 alias gat='git status'
