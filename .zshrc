@@ -1,2 +1,2 @@
 # fix for octopress rake
-alias rake="-o noglob rake"
+alias rakeno="noglob rake"
