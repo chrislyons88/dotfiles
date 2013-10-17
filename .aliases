@@ -151,6 +151,3 @@ alias rke="ssh ubuntu@rkelawgroup.com"
 alias fflg="ssh ubuntu@rkelawgroup.com"
 alias urbity="ssh ubuntu@urbity.com"
 alias ssch='ssh -o "PubkeyAuthentication=no" home4361@collaborenthealth.com'
-
-# fix for octopress rake
-alias rake="noglob rake"
