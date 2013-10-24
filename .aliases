@@ -129,6 +129,7 @@ alias clr="clear"
 
 alias cdu="cd ~/Box\ Documents/Urbity"
 alias cdp="cd ~/Dropbox/web-projects"
+alias cdclp="cd ~/Dropbox/web-projects/ChrisLyonsProject/"
 alias d="cd ~/Dropbox"
 alias cdd="cd ~/Dropbox/dotfiles/"
 alias cdafsg="cd ~/Box\ Documents/Urbity/_Urbity/AFSG\ Consulting/_updated/_edited2"
