@@ -148,6 +148,8 @@ alias tree='tree -C'
 alias gat='git status'
 alias giff='git diff --color=auto'
 
+alias octal='stat -f %Mp%Lp'
+
 alias rke="ssh ubuntu@rkelawgroup.com"
 alias fflg="ssh ubuntu@rkelawgroup.com"
 alias urbity="ssh ubuntu@urbity.com"
