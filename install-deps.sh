@@ -17,7 +17,6 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
 npm install -g nave
 
-
 # homebrew!
 # you need the code CLI tools YOU FOOL.
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
@@ -61,4 +60,9 @@ sudo easy_install Pygments
 
 # chrome canary as default
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
+
+
+# get composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
 
