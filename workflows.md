@@ -27,3 +27,8 @@ ln -s ~/Dropbox/ST3/Installed\ Packages Installed\ Packages
 ln -s ~/Dropbox/ST3/Packages/ Packages
 
 ```
+
+### creating laravel project
+```
+composer create-project laravel/laravel your-project-name --prefer-dist
+```
