@@ -31,4 +31,65 @@ ln -s ~/Dropbox/ST3/Packages/ Packages
 ### creating laravel project
 ```
 composer create-project laravel/laravel your-project-name --prefer-dist
+cd your-project-name
+php artisan key:generate
+
+chmod -R 0777 app/storage
+find bootstrap -name 'start.php' -exec sed -i '' -e 's/datamaskin/localhost/g' {} \;
+
+php artisan migrate:make create_users_table --table=users --create
 ```
+
+php
+
+public function up()
+{
+    Schema::create('users', function(Blueprint $table)
+    {
+        $table->increments('id');
+        $table->string('username')->unique();
+        $table->string('password');
+        $table->timestamps();
+    });
+}
+
+/php
+
+```
+cd app/database/seeds
+ts UserTableSeeder.php
+```
+
+php
+
+```
+ 
+class UserTableSeeder extends Seeder {
+ 
+    public function run()
+    {
+        DB::table('users')->delete();
+ 
+        User::create(array(
+            'username' => 'firstuser',
+            'password' => Hash::make('first_password')
+        ));
+ 
+        User::create(array(
+            'username' => 'seconduser',
+            'password' => Hash::make('second_password')
+        ));
+    }
+ 
+}
+
+```
+
+uncommet database seeder
+
+```
+php artisan migrate
+```
+
+edit timezone
+create database
