@@ -1,19 +1,66 @@
-### Set up ST3 backup from existing installation
+## kickstrap project
+
+```bash
+md schedlr && echo "public" > .gitignore
+kickstrap new .
+
+# ctrl c to exit
+
+g init && g add . && g commit -m 'Initial'
+
+s .
+```
+
+open and edit:
+
+app.coffee
+1. app name
+2. title
+
+_setting.coffee
+1. comment unneeded stuff
+2. setup firebase
+3. add in libs
+
+main.styl
+1. set theme
+
+layout.jade
+1. remove ks stuff
+
+
+
+## Set up ST3 backup from existing installation
+
+#### Make your backup Folder.
+
 ```bash
 
-# Make your backup Folder.
 mkdir ~/Dropbox/ST3/
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/
-# Move the files.
+
+```
+
+#### Move the files
+
+```bash
+
 mv Packages/ ~/Dropbox/ST3/
 mv Installed\ Packages/ ~/Dropbox/ST3/
-# Make symlinks
+
+```
+
+#### Make symlinks
+
+```bash
+
 ln -s ~/Dropbox/ST3/Packages/ Packages
 ln -s ~/Dropbox/ST3/Installed\ Packages Installed\ Packages
 
 ```
 
-### Setting up new system
+## Setting up sublime on new system
+
 ```bash
 
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/
