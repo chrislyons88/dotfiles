@@ -168,7 +168,7 @@ costy() {
 
 # new mean seed 
 seed() {
-	g clone https://github.com/chrislyons88/mean-seed-stylus "$1" && cd "$1" && sudo npm install && sudo bower install
+	g clone https://github.com/chrislyons88/mean-seed-stylus "$1" && cd "$1" && sudo npm install && bower install
 }
 
 
