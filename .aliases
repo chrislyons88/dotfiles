@@ -154,3 +154,4 @@ alias octal='stat -f %Mp%Lp'
 # octopress
 alias rgen='rake generate'
 alias rprev='rake preview'
+

@@ -161,6 +161,16 @@ ts() {
 	touch "$1" && s "$1"
 }
 
+# convert scss to stylus
+costy() {
+	sass "$1" | stylus --css
+}
+
+# new mean seed 
+seed() {
+	g clone https://github.com/chrislyons88/mean-seed-stylus "$1" && npm install && bower install
+}
+
 
 # show members of groups on OSX
 members () { dscl . -list /Users | while read user; do printf "$user "; dsmemberutil checkmembership -U "$user" -G "$*"; done | grep "is a member" | cut -d " " -f 1; };

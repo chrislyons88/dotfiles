@@ -121,6 +121,9 @@ lynx <url>
 octal file permissions
 oct <file>
 
+gnereate mean seed stylus
+seed <app-name>
+
 
 
 
