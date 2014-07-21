@@ -124,7 +124,8 @@ oct <file>
 gnereate mean seed stylus
 seed <app-name>
 
-
+improved top processes
+htop
 
 
 ## iTerm
@@ -147,7 +148,8 @@ shift+cmd+enter
 
 Find
 cmd+f
-
+improved top processes
+htop
 
 
 

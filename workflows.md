@@ -1,3 +1,35 @@
+## new seed project
+cdp
+seed <app-name>
+grunt serve
+s -n .
+
+shift+cmd+f meanseedstylus -> <app-name>
+shift+cmd+f mean-seed-stylus -> <app-name>
+
+bower.json
+ - add in libs
+
+     "angular": "1.2.11",
+    "json3": "~3.2.6",
+    "es5-shim": "~2.1.0",
+    "jquery": "~2.0.3",
+    "jquery.ui": "~1.10.4",
+    "bootstrap-sass-official": "~3.1.1",
+    "bootstrap-stylus": "~3.1.0",
+    "font-awesome": "~4.0.3",
+    "angular-resource": "1.2.11",
+    "angular-cookies": "1.2.11",
+    "angular-sanitize": "1.2.11",
+    "angular-route": "1.2.11",
+    "moment": "~2.5.1",
+    "chosen": "~1.1.0",
+    "parsleyjs": "~2.0.0",
+    "switchery": "~0.5.1"
+
+
+
+
 ## kickstrap project
 
 ```bash
