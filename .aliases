@@ -155,3 +155,7 @@ alias octal='stat -f %Mp%Lp'
 alias rgen='rake generate'
 alias rprev='rake preview'
 
+
+# python / julia
+alias julia="exec '/Applications/Julia-0.2.1.app/Contents/Resources/julia/bin/julia'"
+
